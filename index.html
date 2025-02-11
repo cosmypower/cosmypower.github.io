@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Hey meow!</title>
+
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="view-with-button" id="view0">
+                <p class="main-text">APASA PE BUTON CAND ESTI READY</p>
+
+                <input type="button" value="HAIDE" onclick="runScript()">
+            </div>
+
+            <div id="view1" style="display: none;">
+                <p class="main-text">BUNA MEOW??</p>
+                <img src="img/2.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="view2" style="display: none;">
+                <p class="main-text">SAU MAI BN ZIS</p>
+                <p class="main-text" id="text-render"></p>
+                <img src="img/4.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="view3" style="display: none;">
+                <p class="main-text">CEEE FACI??</p>
+                <img src="img/1.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="view4" style="display: none;">
+                <p class="main-text">VR SA TE INTREB</p>
+                <img src="img/6.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="view5" style="display: none;">
+                <p class="main-text">CA SA NU VINZI POLO</p>
+                <img src="img/polo.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="view6" style="display: none;">
+                <p class="main-text">WANNA BE MY</p>
+
+                <img src="img/3.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div class="view-with-button" id="view7" style="display: none;">
+                <p class="main-text">WANNA BE MY</p>
+                <p class="main-text valentine-text">VALENTINE??</p>
+
+                <div class="button-inputs">
+                    <input type="button" value="CLAR DA" onclick="acceptValentine()">
+                    <input type="button" disabled value="STII...">
+                </div>
+
+                <img src="img/5.png" class="bottom-image" id="bot-img"/>
+            </div>
+
+            <div id="accepted-view" style="display: none;">
+                <p class="main-text">omg suntem impreuna</p>
+
+                <img src="img/3.png" class="bottom-image" id="bot-img"/>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

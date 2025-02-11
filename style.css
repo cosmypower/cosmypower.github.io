@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+html, head, body {
+    background-color: #fabfff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: "Lilita One", serif;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.view-with-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="button"] {
+    padding: 10px;
+    min-width: 100px;
+    
+    border: 2px solid rgb(255, 0, 179);
+    box-shadow: 0 0 10px rgb(255, 0, 179);
+    border-radius: 10px;
+    text-align: center;
+
+    font-family: "Lilita One", serif;
+    font-size: 20px;
+    border: 0;
+
+    background-color: #f15cff;
+}
+
+.main-text {
+    font-size: 2rem;
+    text-align: center;
+
+    transition: 1s ease-out;
+    margin: 5px;
+}
+
+.valentine-text {
+    color: rgb(238, 0, 178);
+
+    font-size: 3rem !important;
+    margin-bottom: 20px;
+}
+
+.button-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dont-want {
+    border: 2px solid rgb(255, 0, 179);
+    box-shadow: 0 0 10px rgb(255, 0, 179);
+    background-color: #ea00ff;
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: -100%;
+    left: calc(50% - 128px);
+
+    width: 256px;
+
+    transition: all 1s ease-in;
+}
+
+div.trigger .main-text {
+    font-size: 2rem;
+    transition: all 1s ease-in;
+}
+
+div.trigger {
+    transition: all 1s ease-in;
+}
+
+div.trigger img {
+    bottom: 0;
+    opacity: 1;
+}
